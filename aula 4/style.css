@@ -7,18 +7,7 @@ h1 {
     color: black;
 }
 
-h2 {
-    text-align: left;
-    color: #bbb;
-}
-
-.paragrafo-1 {
-    justify-content: center;
-    color: rgb(101, 37, 40);
-
-}
-
-.paragrafo-2 {
-    text-align: right;
-    font-size: 40px;
+p {
+    color: rgb(100, 66, 45);
+    text-align: center;
 }
