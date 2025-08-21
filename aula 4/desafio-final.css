@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(101, 33, 14);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+.paragrafo-1 {
+    text-align: justify;
+    color: black;
+}
+
+.paragrafo-2 {
+    text-align: right;
+    font-size: 42px;
+}
