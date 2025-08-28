@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>🏫 Sistema de Cadastro Escolar</h1>
+
+        <p>Bem-vindos ao sistema de cadastro da nossa escola virtual!</p>
+
+        <h2>📋 Menu de Cadastros</h2>
+
+        <a href="/aula 5/projeto/aluno.html"><button>👨‍🎓Cadastro de aluno</button></a>
+        <a href="/aula 5/projeto/aluno.html"><button>👨‍🔬Cadastro de professor</button></a>
+        <a href="/aula 5/projeto/aluno.html"><button>📚Cadastro de curso</button></a>
+        <a href="/aula 5/projeto/aluno.html"><button>📖Cadastro de livro</button></a>
+
+        <div class="formulario">
+            <form action="#" method="post">
+
+                <h3>🧑‍🎓 Cadastro de Aluno</h3>
+
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" name="nome" id="nome"><br><br>
+
+                <label for="data">Data de Nascimento:</label><br>
+                <input type="date" name="data" id="data"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email"><br><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" name="telefone" id="telefone"><br><br>
+
+                <label for="serie">Serie/Ano:</label><br>
+                <select name="serie" id="serie">
+                    <option value="">Selecione a série</option>
+                    <option value="1">1° Ano</option>
+                    <option value="2">2° Ano</option>
+                    <option value="3">3° Ano</option>
+                    <option value="4">4° Ano</option>
+                    <option value="5">5° Ano</option>
+                </select><br><br>
+
+                <label for="pediodo_manha">Periodo:</label><br>
+                <input type="radio" name="periodo_manha" id="periodo_manha" value="manha">
+                <label for="periodo_manha">Manhã</label><br>
+
+                <input type="radio" name="periodo_tarde" id="periodo_tarde" value="tarde">
+                <label for="periodo_tarde">Tarde</label><br>
+
+                <input type="radio" name="periodo_noite" id="periodo_noite" value="noite">
+                <label for="periodo_noite">Noite</label><br><br>
+
+                <label for="atividades">Atividades Extras</label><br>
+                <input type="radio" name="atividades" id="atividades">
+                <label for="atividades">Esportes</label><br>
+
+                <input type="radio" name="atividades" id="atividades">
+                <label for="atividades">Música</label><br>
+
+                <input type="radio" name="atividades" id="atividades">
+                <label for="atividades">Teatro</label><br>
+
+                <input type="radio" name="atividades" id="atividades">
+                <label for="atividades">Informática</label><br><br>
+
+                <label for="observacoes">Observações:</label><br>
+                <input type="text" name="observacoes" id="observacoes"><br><br>
+                
+                <button>Cadastrar aluno</button></a>
+                <button>Cancelar</button></a>
+            </form>
+        </div>
+    </div> 
+</body>
+</html>

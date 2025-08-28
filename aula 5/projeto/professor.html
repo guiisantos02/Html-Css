@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>🏫 Sistema de Cadastro Escolar</h1>
+
+        <p>Bem-vindos ao sistema de cadastro da nossa escola virtual!</p>
+
+        <h2>📋 Menu de Cadastros</h2>
+
+        <a href="/aula 5/projeto/aluno.html"><button>👨‍🎓Cadastro de aluno</button></a>
+        <a href="/aula 5/projeto/aluno.html"><button>👨‍🔬Cadastro de professor</button></a>
+        <a href="/aula 5/projeto/aluno.html"><button>📚Cadastro de curso</button></a>
+        <a href="/aula 5/projeto/aluno.html"><button>📖Cadastro de livro</button></a>
+
+        <div class="formulario">
+            <form method="post" action="#">
+
+                <h3>🧑‍🎓 Cadastro de Aluno</h3>
+
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" name="nome" id="nome"><br><br>
+
+                <label for="data">Data de Nascimento:</label><br>
+                <input type="date" name="data" id="data"><br><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" name="telefone" id="telefone"><br><br>
+
+                <label for="serie">Serie/Ano:</label><br>
+                <select name="serie" id="serie">
+                    <option value="">Selecione a série</option>
+                    <option value="1">1° Ano</option>
+                    <option value="2">2° Ano</option>
+                    <option value="3">3° Ano</option>
+                    <option value="4">4° Ano</option>
+                    <option value="5">5° Ano</option>
+                </select><br><br>
+
+                <label>Disciplinas que leciona:</label><br><br>
+
+                <input type="checkbox" name="disciplinas" id="matematica" value="matematica">
+                <label for="matematica">Matemática</label><br>
+
+                <input type="checkbox" name="disciplinas" id="portugues" value="portugues">
+                <label for="portugues">Português</label><br>
+
+                <input type="checkbox" name="disciplinas" id="historia" value="historia">
+                <label for="historia">História</label><br>
+
+                <input type="checkbox" name="disciplinas" id="geografia" value="geografia">
+                <label for="geografia">Geografia</label><br>
+
+                <input type="checkbox" name="disciplinas" id="ciencias" value="ciencias">
+                <label for="ciencias">Ciências</label><br>
+
+                <input type="checkbox" name="disciplinas" id="ed_fisica" value="educacao_fisica">
+                <label for="ed_fisica">Educação Física</label><br><br>
+
+                <label for="carga_horaria">Carga horária semanal</label><br>
+                <input type="number" name="carga_horaria" id="carga_horaria">
+                <label for="carga_horaria">horas</label><br><br>
+
+                <label for="experiencia">Experiência (anos)</label><br>
+                <input type="number" name="experiencia" id="experiencia">
+                <label for="experiencia">anos</label><br><br>
+
+                <label for="disponibilidade">Disponibilidade</label><br>
+                <input type="radio" name="disponibilidade" id="disponibilidade">
+                <label for="disponibilidade">Período integral</label><br>
+
+                <input type="radio" name="disponibilidade" id="disponibilidade">
+                <label for="disponibilidade">Período parcial</label><br><br>
+
+                
+                <button>Cadastrar professor</button></a>
+                <button>Cancelar</button></a>
+
+            </form>
+        </div>
+    </div> 
+</body>
+</html>

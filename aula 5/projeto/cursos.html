@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="/aula 5/projeto/style.css">
+</head>
+<body>
+        <div class="container">
+            <h1>🏫 Sistema de Cadastro Escolar</h1>
+            <p>Bem-Vindos ao sistema de cadastros da nossa escola virtual!</p>
+            <h2>📋 Menu de Cadastros</h2>
+
+            <a href="/aula 5/projeto/aluno.html"><button>👨‍🎓Cadastrar Aluno</button></a>
+            <a href="/aula 5/projeto/professor.html"><button>👨‍🏫Cadastrar Professor</button></a>
+            <a href="/aula 5/projeto/cursos.html"><button>📚Cadastrar Curso</button></a>
+            <a href="/aula 5/projeto/livro.html"><button>📖Cadastrar Livro</button></a>
+
+        <div class="formulario">
+             <h3>📚Cadastro de Cursos</h3>
+             
+            <label for="nome">Nome do Curso:</label><br>
+            <input type="text" name="nome_completo" size="50"><br><br>
+
+
+            <label for="name">Código do Curso:</label><br>
+            <input type="Number" name="CPF"><br><br>
+
+            <label for="categoria"> Categoria:</label><br>
+
+            <select name="categoria" id="categoria">
+                <option value="">Selecione a categoria:</option>
+                <option value="1ano">Ciências Exatas</option>
+                <option value="2ano">Ciências Humanas</option>
+                <option value="3ano">Ciências Biológicas</option>
+                <option value="4ano">Linguagens</option>
+                <option value="4ano">Artes</option>
+            </select><br><br>
+
+            <label for="duracao">Duração (meses):</label><br>
+            <input type="number" id="duracao" name="duracao" min="1" max="20"><br><br>
+
+            <label for="modalidade">Modalidade:</label><br>
+            <input type="radio" name="modalidade" id="modalidade">
+            <label for="modalidade">Presencial</label><br>
+            <input type="radio" id="modalidade" name="modalidade">
+            <label for="modalidade">Online</label><br>
+            <input type="radio" name="modalidade" id="modalidade">
+            <label for="modalidade">Híbrido</label><br> <br>
+
+            <label for="pre-requisitos">Pré-requisitos</label><br>
+            <input type="checkbox" name="pre-requisitos" id="pre-requisitos">
+            <label for="pre-requisitos">Ensino médio Completo</label><br>
+            <input type="checkbox" name="pre-requisitos" id="pre-requisitos">
+            <label for="pre-requisitos">Curso básicos</label><br>
+            <input type="checkbox" name="pre-requisitos" id="pre-requisitos">
+            <label for="pre-requisitos">Experiência Prévia</label><br><br>
+
+           <label for="name">Descrição do curso</label><br>
+           <textarea name="previa" rows="10" cols="30"></textarea><br><br>
+           
+            <button>Cadastrar curso</button>
+            <button>Limpar dados</button>
+</body>
+</html>
