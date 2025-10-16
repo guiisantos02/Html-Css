@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f5f6fa;
+  color: #2f3640;
+  line-height: 1.8;
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.4em;
+  color: #1e3799;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 1.05em;
+}
+
+mark {
+  background: linear-gradient(120deg, #f9ed69 0%, #f6e58d 100%);
+  color: #2d3436;
+  font-weight: 600;
+  padding: 0 3px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+mark:hover {
+  background: linear-gradient(120deg, #ffeaa7 0%, #fdcb6e 100%);
+  cursor: default;
+}
