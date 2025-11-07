@@ -1,0 +1,260 @@
+body{
+    background-color: black;
+}
+
+
+.containerPAI1 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;        
+    gap: 10px; 
+    margin-top: 10px;
+    margin: 10px;
+}
+
+
+.container1 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+.containerPAI2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;       
+    gap: 10px; 
+    margin-top: 10px;
+    margin: 10px;
+}
+
+
+.container2 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(72, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+.containerPAI3 {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;         
+    gap: 10px; 
+    margin-top: 10px;
+    margin: 10px;
+}
+
+
+.container3 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(9, 255, 62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.containerPAI4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start;         
+    gap: 10px; 
+    margin-top: 10px;
+    margin: 10px;
+}
+
+
+.container4 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 32, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+
+.containerPAI5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;         
+    gap: 10px; 
+    margin-top: 10px;
+    margin: 10px;
+}
+
+
+.container5 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 32, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+
+.containerPAI6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: flex-end;         
+    gap: 10px; 
+    margin-top: 10px;
+    margin: 10px;
+}
+
+
+.container6 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 32, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.containerPAI7 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;       
+    gap: 10px; 
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.container7 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 0, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.containerPAI8 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;       
+    gap: 10px; 
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.container8 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 0, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.containerPAI9 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;       
+    gap: 10px; 
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.container9 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(208, 255, 0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.containerPAI10 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;       
+    gap: 10px; 
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.container10 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(208, 255, 0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+.containerPAI11 {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;       
+    gap: 10px; 
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.container11 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 0, 0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.containerPAI12 {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;       
+    gap: 10px; 
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.container12 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 0, 0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
