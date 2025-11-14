@@ -1,0 +1,7 @@
+.caixa {
+    height: 300px; 
+    background: #ddd;
+    display: flex; 
+    align-items: center;
+    padding-left: 20px; 
+}

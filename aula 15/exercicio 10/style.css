@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    padding: 20px;
+}
+
+.secao {
+    width: 30%;
+}
+
+.secao h4 {
+    margin-top: 0;
+}
